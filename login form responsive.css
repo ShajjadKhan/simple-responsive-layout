@@ -1,0 +1,95 @@
+
+.custom-hr{
+    /* border: 5px solid 5px; */
+    height: 10px;
+    border-color: blueviolet;
+    color: blueviolet;
+ }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.login-form-container{
+
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column ;
+    width: 50%;
+    
+    justify-content: center;
+}
+
+.login-form input{
+    margin: 20px;
+ }
+ 
+/* Module-7.4 */
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.item{
+    border: 1px solid cornflowerblue;
+}
+
+/* Module-7.4 */
+
+
+/* Module-7.5 */
+
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date, .day{
+    
+    background-color: aquamarine;
+    border-radius: 5px;
+grid-template-rows: repeat(6, 50px);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+}
+.day{
+    background-color: rgb(254, 198, 163);
+    font-size: 1.1em;
+    height: 45px;
+}
+
+/* Module-7.5 */
+
+
+
+/* Module-7.6 */
+.first-h1{text-align: center;}
+
+
+
+
+/* Module-7.6 */
+
+
+
+
+
+
+
